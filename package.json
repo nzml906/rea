@@ -10,7 +10,8 @@
     "build-css": "lessc src/style/index.less src/index.css",
     "watch-css": "npm run build-css && grunt",
     "storybook": "start-storybook -p 6006 -s public",
-    "build-storybook": "build-storybook -s public"
+    "build-storybook": "build-storybook -s public",
+    "chromatic": "npx chromatic --project-token=d6c48ed15aa4"
   },
   "devDependencies": {
     "@storybook/addon-actions": "^6.3.4",
@@ -21,6 +22,7 @@
     "@storybook/preset-create-react-app": "^3.2.0",
     "@storybook/react": "^6.3.4",
     "@storybook/testing-react": "^0.0.18",
+    "chromatic": "^5.9.2",
     "grunt": "^1.4.1",
     "grunt-contrib-less": "^3.0.0",
     "grunt-contrib-watch": "^1.1.0",
