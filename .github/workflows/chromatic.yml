@@ -18,4 +18,4 @@ jobs:
           # our project token, to see how to obtain it
           # refer to https://storybook.js.org/tutorials/intro-to-storybook/react/en/deploy/
           projectToken: d6c48ed15aa4
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: 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
